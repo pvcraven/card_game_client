@@ -1,0 +1,10 @@
+server = "http://127.0.0.1:8000"
+START_MODE = 1
+LOBBY_MODE = 2
+GET_NAME_MODE = 0
+PICK_FROM_HAND = 3
+PICK_FROM_HOLD = 5
+
+MODE_LOBBY = 'Lobby'
+MODE_PICK_FROM_HAND = 'Pick from hand'
+MODE_PICK_FROM_HOLD = 'Pick from hold'
