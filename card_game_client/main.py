@@ -1,7 +1,11 @@
+
 import os
 
 file_path = os.path.dirname(os.path.abspath(__file__))
 os.chdir(file_path)
+
+import sys
+print(sys.path)
 
 from game_ui_text import GameUIText
 
