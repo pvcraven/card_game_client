@@ -10,8 +10,9 @@ from constants import *
 
 def get_card_by_id(card_pile, id):
     card_list = card_pile['card_list']
+    print("Picking from ", card_list)
     for card in card_list:
-        if card.number == id:
+        if card['number'] == id:
             return card
     return None
 
@@ -33,6 +34,7 @@ def get_card(possible_choices):
     success = False
     print(possible_choices)
     while not success:
+        print(possible_choices)
         choice_str = input("> ")
         try:
             choice_int = int(choice_str)
